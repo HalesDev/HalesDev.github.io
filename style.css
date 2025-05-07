@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-align: center;
     font-family: sans-serif;
+    gap: 10px;
 }
 .head{
     background-color: #212529;
@@ -65,7 +66,9 @@ img {
     border-radius: 50%;
 }
 
-
+.fa-brands{
+    transition: 0.3s ease-in-out;
+}
 /* Responsive design */
 @media (max-width: 768px) {
     .head {
@@ -92,4 +95,12 @@ img {
         font-size: 24px;
         padding: 1rem;
     }
+
+
+}
+
+.fa-brands:hover{
+        transform: translateY(-10px);
+        scale: 1.2;
+        border-bottom: 3px solid white;
 }
